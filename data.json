@@ -3,7 +3,7 @@
         "pro_id":"p001",
         "pro_name":"Non printed",
         "category":"paper bag",
-        "pro_img":"./img/pro1.jpg",
+        "pro_img":"./img/pro1.webp",
         "price":"10"
     },
     {
@@ -11,49 +11,49 @@
         "pro_name":"Loop handle",
 
         "category":"non woven bag",
-        "pro_img":"./img/pro2.jpg",
+        "pro_img":"./img/pro2.webp",
         "price":"10"
     },{
         "pro_id":"p003",
         "pro_name":"W-cut",
 
         "category":"non woven bag",
-        "pro_img":"./img/pro3.jpg",
+        "pro_img":"./img/pro3.webp",
         "price":"10"
     },{
         "pro_id":"p004",
         "pro_name":"W-cut",
 
         "category":"non woven bag",
-        "pro_img":"./img/pro4.jpg",
+        "pro_img":"./img/pro4.webp",
         "price":"10"
     },{
         "pro_id":"p005",
         "pro_name":"D-cut",
 
         "category":"non woven bag",
-        "pro_img":"./img/pro5.jpg",
+        "pro_img":"./img/pro5.webp",
         "price":"10"
     },{
         "pro_id":"p006",
         "pro_name":"D-cut",
 
         "category":"non woven bag",
-        "pro_img":"./img/pro6.jpg",
+        "pro_img":"./img/pro6.webp",
         "price":"10"
     },{
         "pro_id":"p007",
         "pro_name":"Cotton carry",
 
         "category":"cotton bag",
-        "pro_img":"./img/pro7.jpg",
+        "pro_img":"./img/pro7.webp",
         "price":"10"
     },{
         "pro_id":"p008",
         "pro_name":"Cotton carry",
 
         "category":"cotton bag",
-        "pro_img":"./img/pro8.jpg",
+        "pro_img":"./img/pro8.webp",
         "price":"10"
     },
     {
@@ -61,41 +61,41 @@
         "pro_name":"Cotton carry",
 
         "category":"cotton bag",
-        "pro_img":"./img/pro9.jpg",
+        "pro_img":"./img/pro9.webp",
         "price":"10"
     },{
         "pro_id":"p008",
         "pro_name":"Printed cake box",
 
         "category":"paper bag",
-        "pro_img":"./img/pro10.jpg",
+        "pro_img":"./img/pro10.webp",
         "price":"10"
     },{
         "pro_id":"p008",
         "pro_name":"Printed food parcel",
 
         "category":"paper bag",
-        "pro_img":"./img/pro11.jpg",
+        "pro_img":"./img/pro11.webp",
         "price":"10"
     },{
         "pro_id":"p008",
         "pro_name":"Printed carry",
 
         "category":"paper bag",
-        "pro_img":"./img/pro12.jpg",
+        "pro_img":"./img/pro12.webp",
         "price":"10"
     },{
         "pro_id":"p008",
         "pro_name":"Printed carry",
 
         "category":"paper bag",
-        "pro_img":"./img/pro13.jpg",
+        "pro_img":"./img/pro13.webp",
         "price":"10"
     },{
         "pro_id":"p008",
         "pro_name":"Printed carry",
         "category":"paper bag",
-        "pro_img":"./img/pro14.jpg",
+        "pro_img":"./img/pro14.webp",
         "price":"10"
     }
 
