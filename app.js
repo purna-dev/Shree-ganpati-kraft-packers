@@ -236,21 +236,49 @@ function myFilter() {
      }
   })
 
-//   gsap.to('#float',{
-//     translateY:'230%',
-//     translateX:'2%',
-//     scale:'1.5',
-//     transform : 'rotate(-15deg)',
-//     duration:1,
-//     ease:Expo.inOut,
-//     scrollTrigger:{
-//      trigger:'#float',
-//      scroller:'body',
-//      markers:true,
-//      start:'top -5%',
-//      end :'bottom -150%',
-//      scrub: true,
-//      pin:true
+  gsap.to('#float',{
+    top:'126',
+    translateX:'150%',
+    scale:'1',
+    transform : 'rotate(-15deg)',
+    duration:2,
+    ease:Expo.inOut,
+    // repeat:-1
+ })
 
-//     }
-//  })
+
+
+ 
+
+//  menu
+
+document.getElementById('menu').onclick = ()=>{
+  // document.querySelector('.mobile_menu')
+  gsap.to('.mobile_menu',{
+    display:'flex',
+     duration:0.5,
+     ease:Power4.in
+  })
+  gsap.to('.mobile_menu ul li span',{
+    opacity:1,
+    bottom:'0%',
+    duration:0.5,
+    ease:Power4.inOut,
+    stagger:0.3
+   })
+}
+
+document.getElementById('close').onclick = ()=>{
+  gsap.to('.mobile_menu',{
+    display:'none',
+     duration:0.5,
+     ease:Power4.in
+  })
+  gsap.to('.mobile_menu ul li span',{
+    opacity:0,
+    bottom:'-110%',
+    duration:0.5,
+    ease:Power4.inOut,
+    stagger:0.3
+   })
+}
