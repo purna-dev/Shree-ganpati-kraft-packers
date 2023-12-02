@@ -660,6 +660,10 @@ footer .cir3 {
 
 
 @media(width<=650px) {
+    body{
+        
+    overflow-x: hidden;
+    }
     nav {
         justify-content: space-around;
         gap: 2.5rem;
@@ -792,5 +796,8 @@ footer .cir3 {
         font-size: 2.5rem;
         align-self: flex-start;
         text-align: left;
+    }
+    .call_me{
+        right: 6%;
     }
 }
