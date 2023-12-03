@@ -12,6 +12,20 @@
         integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="app.css">
+    <script>
+        function home(){
+  location.href = 'index.html';
+}
+function about(){
+  location.href = 'about.html';
+}
+function bags(){
+  location.href = 'bags.html';
+}
+function contact(){
+  location.href = 'contact.html';
+}
+    </script>
 
 </head>
 
@@ -36,17 +50,17 @@
             </div>
 
             <ul>
-                <li class="active">Home</li>
-                <li>About</li>
+                <li class="active" onclick="home()" >Home</li>
+                <li onclick="about()">About</li>
 
-                <li>Bags</li>
-                <li>Contact Us</li>
+                <li onclick="bags()">Bags</li>
+                <li onclick="contact()">Contact Us</li>
             </ul>
             <div class="s_icon">
 
-                <div class="c">
+                <div class="c" id="whatsapp">
                     <i class="ri-whatsapp-fill"></i>
-                    <span>: +91 9162927965</span>
+                    <span>: +91 8709641365</span>
 
                 </div>
 
@@ -67,11 +81,11 @@
 
             <ul>
                 
-                <li><span>Home</span></li>
-                <li><span>About</span></li>
+                <li  onclick="home()"><span>Home</span></li>
+                <li onclick="about()"><span>About</span></li>
 
-                <li><span>bags</span></li>
-                <li><span>Contact Us</span></li>
+                <li onclick="bags()"><span>bags</span></li>
+                <li onclick="contact()"><span>Contact Us</span></li>
             </ul>
 
             <div class="f">
@@ -233,6 +247,25 @@
 
 
             </div>
+
+
+        </div>
+
+
+        <div class="diff_size">
+
+            <div>
+
+                <img src="img/pro7.webp" alt="">
+                <div class="diff_r">
+                    <span>DIFFERENT SIZES</span>
+                    <h1>Sizes For Every Need!</h1>
+                    <p>Our Paper Bags And Packaging Company Offers A Diverse Range Of Sizes To Meet Your Needs. From Small To Large, We Ensure Versatile Options For All Your Packing Requirements.</p>
+                    <button> <i class="ri-phone-line"></i> Contact Now</button>
+                </div>
+
+            </div>
+
 
 
         </div>

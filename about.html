@@ -12,6 +12,20 @@
         integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="app.css">
+    <script>
+        function home(){
+  location.href = 'index.html';
+}
+function about(){
+  location.href = 'about.html';
+}
+function bags(){
+  location.href = 'bags.html';
+}
+function contact(){
+  location.href = 'contact.html';
+}
+    </script>
 
 </head>
 
@@ -30,18 +44,23 @@
 
 
         <nav id="navbar">
-            <ul>
-                <li>Home</li>
-                <li  class="active">About</li>
 
-                <li>Bags</li>
-                <li>Contact Us</li>
+            <div class="menus" id="menu">
+                <i class="ri-menu-line"></i> <span>Menu</span>
+            </div>
+
+            <ul>
+                <li  onclick="home()" >Home</li>
+                <li class="active" onclick="about()">About</li>
+
+                <li onclick="bags()">Bags</li>
+                <li onclick="contact()">Contact Us</li>
             </ul>
             <div class="s_icon">
 
-                <div class="c">
+                <div class="c" id="whatsapp">
                     <i class="ri-whatsapp-fill"></i>
-                    <span>: +91 9162927965</span>
+                    <span>: +91 8709641365</span>
 
                 </div>
 
@@ -49,6 +68,32 @@
 
             </div>
         </nav>
+
+        <div class="mobile_menu">
+
+            <div id="close">
+                <i class="ri-close-circle-line"></i> 
+            </div>
+
+        <img src="img/paper_bag.png" alt="" id="float">
+
+
+
+            <ul>
+                
+                <li  onclick="home()"><span>Home</span></li>
+                <li onclick="about()"><span>About</span></li>
+
+                <li onclick="bags()"><span>bags</span></li>
+                <li onclick="contact()"><span>Contact Us</span></li>
+            </ul>
+
+            <div class="f">
+                <p>Copyright © 2023 Shree ganpati kraft packers rights reserved.</p>
+            </div>
+
+
+        </div>
 
 
 
@@ -78,6 +123,40 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js" integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- <script type="module" src="app.js"></script> -->
+    <script>
+        // menu
+        document.getElementById('menu').onclick = ()=>{
+    // document.querySelector('.mobile_menu')
+    gsap.to('.mobile_menu',{
+      display:'flex',
+       duration:0.5,
+       ease:Power4.in
+    })
+    gsap.to('.mobile_menu ul li span',{
+      opacity:1,
+      bottom:'0%',
+      duration:0.5,
+      ease:Power4.inOut,
+      stagger:0.3
+     })
+  }
+  
+  document.getElementById('close').onclick = ()=>{
+    gsap.to('.mobile_menu',{
+      display:'none',
+       duration:0.5,
+       ease:Power4.in
+    })
+    gsap.to('.mobile_menu ul li span',{
+      opacity:0,
+      bottom:'-110%',
+      duration:0.5,
+      ease:Power4.inOut,
+      stagger:0.3
+     })
+  }
+
+    </script>
 </body>
 
 </html>

@@ -1,88 +1,88 @@
-[
-    {
-        "pro_id":"p001",
-        "pro_name":"Non printed",
-        "category":"paper bag",
-        "pro_img":"./img/pro1.webp"
+[{
+        "pro_id": "p008",
+        "pro_name": "Printed cake box",
+
+        "category": "paper bag",
+        "pro_img": "./img/pro10.webp"
+    }, {
+        "pro_id": "p008",
+        "pro_name": "Printed food parcel",
+
+        "category": "paper bag",
+        "pro_img": "./img/pro11.webp"
+    }, {
+        "pro_id": "p008",
+        "pro_name": "Printed carry",
+
+        "category": "paper bag",
+        "pro_img": "./img/pro12.webp"
+    }, {
+        "pro_id": "p008",
+        "pro_name": "Printed carry",
+
+        "category": "paper bag",
+        "pro_img": "./img/pro13.webp"
+    }, {
+        "pro_id": "p008",
+        "pro_name": "Printed carry",
+        "category": "paper bag",
+        "pro_img": "./img/pro14.webp"
     },
     {
-        "pro_id":"p002",
-        "pro_name":"Loop handle",
-
-        "category":"non woven bag",
-        "pro_img":"./img/pro2.webp"
-    },{
-        "pro_id":"p003",
-        "pro_name":"W-cut",
-
-        "category":"non woven bag",
-        "pro_img":"./img/pro3.webp"
-    },{
-        "pro_id":"p004",
-        "pro_name":"W-cut",
-
-        "category":"non woven bag",
-        "pro_img":"./img/pro4.webp"
-    },{
-        "pro_id":"p005",
-        "pro_name":"D-cut",
-
-        "category":"non woven bag",
-        "pro_img":"./img/pro5.webp"
-    },{
-        "pro_id":"p006",
-        "pro_name":"D-cut",
-
-        "category":"non woven bag",
-        "pro_img":"./img/pro6.webp"
-    },{
-        "pro_id":"p007",
-        "pro_name":"Cotton carry",
-
-        "category":"cotton bag",
-        "pro_img":"./img/pro7.webp"
-    },{
-        "pro_id":"p008",
-        "pro_name":"Cotton carry",
-
-        "category":"cotton bag",
-        "pro_img":"./img/pro8.webp"
+        "pro_id": "p001",
+        "pro_name": "Non printed",
+        "category": "paper bag",
+        "pro_img": "./img/pro1.webp"
     },
     {
-        "pro_id":"p008",
-        "pro_name":"Cotton carry",
+        "pro_id": "p002",
+        "pro_name": "Loop handle",
 
-        "category":"cotton bag",
-        "pro_img":"./img/pro9.webp"
-    },{
-        "pro_id":"p008",
-        "pro_name":"Printed cake box",
+        "category": "non woven bag",
+        "pro_img": "./img/pro2.webp"
+    }, {
+        "pro_id": "p003",
+        "pro_name": "W-cut",
 
-        "category":"paper bag",
-        "pro_img":"./img/pro10.webp"
-    },{
-        "pro_id":"p008",
-        "pro_name":"Printed food parcel",
+        "category": "non woven bag",
+        "pro_img": "./img/pro3.webp"
+    }, {
+        "pro_id": "p004",
+        "pro_name": "W-cut",
 
-        "category":"paper bag",
-        "pro_img":"./img/pro11.webp"
-    },{
-        "pro_id":"p008",
-        "pro_name":"Printed carry",
+        "category": "non woven bag",
+        "pro_img": "./img/pro4.webp"
+    }, {
+        "pro_id": "p005",
+        "pro_name": "D-cut",
 
-        "category":"paper bag",
-        "pro_img":"./img/pro12.webp"
-    },{
-        "pro_id":"p008",
-        "pro_name":"Printed carry",
+        "category": "non woven bag",
+        "pro_img": "./img/pro5.webp"
+    }, {
+        "pro_id": "p006",
+        "pro_name": "D-cut",
 
-        "category":"paper bag",
-        "pro_img":"./img/pro13.webp"
-    },{
-        "pro_id":"p008",
-        "pro_name":"Printed carry",
-        "category":"paper bag",
-        "pro_img":"./img/pro14.webp"
+        "category": "non woven bag",
+        "pro_img": "./img/pro6.webp"
+    }, {
+        "pro_id": "p007",
+        "pro_name": "Cotton carry",
+
+        "category": "cotton bag",
+        "pro_img": "./img/pro7.webp"
+    }, {
+        "pro_id": "p008",
+        "pro_name": "Cotton carry",
+
+        "category": "cotton bag",
+        "pro_img": "./img/pro8.webp"
+    },
+    {
+        "pro_id": "p008",
+        "pro_name": "Canvas carry",
+
+        "category": "cotton bag",
+        "pro_img": "./img/pro9.webp"
     }
 
 ]
