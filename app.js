@@ -284,7 +284,7 @@ document.getElementById('close').onclick = ()=>{
 }
 
 // call me 
-
+//buttons events
 document.querySelector('.call_me').onclick =()=>{
  
   window.location.href = 'tel:+918709641365'
@@ -294,3 +294,9 @@ document.getElementById('whatsapp').onclick = ()=>{
 
 }
 
+document.getElementById('products_me').onclick = ()=>{
+  location.href = '#products'
+}
+document.querySelector('.more_p button').onclick = ()=>{
+  location.href = 'bags.html'
+}
