@@ -46,10 +46,14 @@ window.onscroll=()=>{
 
 function products(){
 
-    data.default.forEach((e, i) => {
-        console.log(i)
-         i=6;
+    data.default.forEach((e, i,arr) => {
+  
+
+        console.log(arr[i])
+        i=6
+
         if(i<12){
+          
 
             const card = document.createElement('div');
             card.setAttribute('class', 'card')

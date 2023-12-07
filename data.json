@@ -83,6 +83,13 @@
 
         "category": "cotton bag",
         "pro_img": "./img/pro9.webp"
+    },
+    {
+        "pro_id": "p008",
+        "pro_name": "Grocery carry",
+
+        "category": "cotton bag",
+        "pro_img": "./img/pro15.jpg"
     }
 
 ]
