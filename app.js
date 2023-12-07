@@ -10,7 +10,7 @@ function show() {
     let ran = Math.floor(Math.random() * 6 + 1)
     sec_img.style.background = `url('./img/new/${ran}.webp')`;
     sec_img.style.backgroundPosition = `center`;
-    sec_img.style.backgroundSize = `cover`;
+    sec_img.style.backgroundSize = `contain`;
     sec_img.style.backgroundRepeat = 'no-repeat';
 
 

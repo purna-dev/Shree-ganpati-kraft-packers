@@ -327,11 +327,13 @@ section div:nth-child(1) .l .cir2 {
 }
 .about_founder .about_l{
     width: 28%;
+    background-color: var(--white);
+    border-radius: 0.2rem;
+
 
 }
 .about_founder .about_l .sec_r {
     height: 300px;
-    /* background-color: teal; */
     border-radius: 0.3rem;
     padding: 1rem;
     background-image: url('./img/new/1.webp');
