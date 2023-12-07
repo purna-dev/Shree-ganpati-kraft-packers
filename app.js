@@ -1,7 +1,7 @@
 import * as data from './data.json' assert {
     type: "json"
   };
-const sec_img = document.querySelector('section .sec_r');
+const sec_img = document.querySelector('.about_founder .about_l .sec_r');
 const product_s = document.querySelector('.pro_sec .p_b');
 console.log(product_s)
 
