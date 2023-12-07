@@ -300,3 +300,6 @@ document.getElementById('products_me').onclick = ()=>{
 document.querySelector('.more_p button').onclick = ()=>{
   location.href = 'bags.html'
 }
+document.getElementById('query').onclick=()=>{
+  location.href = 'https://whatsform.com/CuUBhg';
+}
