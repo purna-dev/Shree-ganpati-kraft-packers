@@ -314,6 +314,16 @@ section div:nth-child(1) .l .cir2 {
     color: var(--white);
     position: relative;
     overflow: hidden;
+    
+}
+.about_founder .sec_founder .float1{
+    position: absolute;
+    width: 200px;
+    z-index: 9;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    transform: rotate(-25deg);
 }
 .about_founder .about_l{
     width: 28%;
@@ -368,6 +378,7 @@ width: 100px;
 height: 100px;
 border-radius: 50%;
 overflow: hidden;
+
 }
 .about_founder .sec_founder div img{
     width: 100%;
@@ -389,7 +400,28 @@ width: 160px;
     color: var(--black-b);
     margin: 1rem 0;
     font-weight: 700;
+    letter-spacing: 0.05rem;
+    position: relative;
+    z-index: 99;
 
+}
+.about_founder .sec_founder h2{
+    font-size: 1.2rem;
+    margin: 0.8rem 0 0;
+
+    color: teal;
+    text-transform: uppercase;
+}
+.about_founder .sec_founder .line{
+    width: 80%;
+    height: 2px;
+    opacity: 0.5;
+    background-color: var(--black-b);
+}
+.about_founder .sec_founder p:nth-child(3){
+    /* width: 500px; */
+    color: var(--black-b);
+    opacity: 0.8;
 }
 .fe_p {
 
