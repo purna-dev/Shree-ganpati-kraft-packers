@@ -48,7 +48,7 @@ function products(){
 
     data.default.forEach((e, i) => {
         console.log(i)
-
+         i=6
         if(i<12){
 
             const card = document.createElement('div');

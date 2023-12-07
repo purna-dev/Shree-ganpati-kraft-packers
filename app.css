@@ -1031,7 +1031,9 @@ footer .cir3 {
     }
     .about_founder{
         flex-direction: column;
+        padding: 0.5rem 1rem;
     }
+    
     .about_founder .about_l{
         width: 100%;
     }
